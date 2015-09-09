@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background: url(img/background_1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main_wrapper {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background-color: transparent;
+}
+
+.header_wrapper {
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+
+}
+
+#login {
+	background-color: transparent;
+	color: #000000;
+	font-size: 20px;
+	float: right;
+}
+
+#login li{
+	list-style: none;
+}
+
+#logo {
+	float: left;
+}
+
+#banner {
+	float: right;
+}
+
+.menubar {
+	width: 1000px;
+	height: 50px;
+	background-color: #000000;
+	color: white;
+}
+
+#menu {
+	padding: 0;
+	margin: 0;
+	line-height: 35px;
+	z-index: 10;
+	float: left;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+	z-index: 10;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	font-size: 18px;
+	font-family: Verdana;
+}
+
+#menu a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+#form {
+	float: right;
+	padding-right: 8px;
+	line-height: 40px;
+}
+
+.content_wrapper {
+	width: 1000px;
+	margin: auto;
+	background-color: pink;
+}
+
+#content_area {
+	width: 800px;
+	float: right;
+	background-color: transparent;
+}
+
+#sidebar {
+	width: 200px;
+	background-color: black;
+	float: left;
+}
+
+#sidebar_title {
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	font-family: Verdana, Sans-serif;
+	padding: 10px;
+	text-align: center;
+}
+
+#categories {
+	text-align: center;
+}
+
+#categories li {
+	list-style: none;
+	margin: 5px;
+}
+
+#categories a {
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Verdana, Sans-serif;
+	text-decoration: none;
+}
+
+#categories a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+
+#products_box {
+	width: 780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+#single_product {
+	float: left;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+#single_product img {
+	border: 2px solid black;
+}
+
+#shopping_cart {
+	width: 800px;
+	height: 50px;
+	background-color: transparent;
+	color: #FFF;
+
+}
+
+.circular {
+	width: 320px;
+	height: 300px;
+	border-radius: 150px;
+	float: right;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://ictacademie.info/eneskaraaslan/pvb/images/homepage.jpg) no-repeat;
+	margin-left: 245px;
+	margin-top: -280px;
+	}
+	
+.circular2 {
+	width: 320px;
+	height: 300px;
+	border-radius: 150px;
+	float: right;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://ictacademie.info/eneskaraaslan/pvb/images/about1.jpg);
+	margin-left: 245px;
+	margin-top: -350px;
+	}
+	
+.circular3 {
+	width: 320px;
+	height: 300px;
+	border-radius: 150px;
+	float: right;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://ictacademie.info/eneskaraaslan/pvb/images/contact1.jpg);
+	margin-left: 245px;
+	margin-top: -350px;
+	}
+	
+.homepage-info {
+	float: left;
+	margin-top: 50px;
+	width: 400px;
+}
+
+.homepage-info p {
+	font-size: 20px;
+	float: left;
+	text-align: left;
+}
+
+.about-info {
+	float: left;
+	margin-top: 50px;
+	width: 400px;
+}
+
+.about-info p {
+	font-size: 20px;
+	float: left;
+	text-align: left;
+}
+
+.contact-info {
+	float: left;
+	margin-top: 50px;
+	width: 400px;
+}
+
+.loginorregister {
+	background-color: transparent;
+	width: 350px;
+	font-size: 25px;
+}
+
+.login_panel {
+	background-color: transparent;
+	padding-top: 10px;
+	width: 10px;
+	text-align: 60px;
+}
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	background-color: transparent;
+	color: #000000;
+	clear: both;
+}

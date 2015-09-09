@@ -1,0 +1,20 @@
+.lean-slider {
+    position: relative;
+    *zoom: 1;
+}
+.lean-slider:before,
+.lean-slider:after {
+    content: " ";
+    display: table;
+}
+.lean-slider:after {
+    clear: both;
+}
+
+.lean-slider-slide {
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    display: none;
+}
+.lean-slider-slide.current { display: block; }
