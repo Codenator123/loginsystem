@@ -1,0 +1,69 @@
+autos
+
+auto_id		int 100		auto increment	primary
+auto_merk	int 100
+auto_uit	int 100
+auto_naam	varchar 255
+auto_prijs	int 100
+auto_omsch	text
+auto_image	text
+auto_keywords	text
+auto_kent	text
+auto_gps	text
+
+cart
+
+p_id		int 10
+ip_add		varchar 255
+
+filiaal
+
+filiaal_id	int 11
+filiaal_naam	text
+
+groups
+
+id		int 11		auto increment primary
+name		varchar 65					1. Standard user 2. Administrator
+permissions 	text						2. {"admin": 1}
+
+merk
+
+merk_id		int 100		auto increment primary
+merk_naam	text						1. Bmw	2. Mercedes 3. Rolls-royce 4. Porsche
+
+uitvoering
+
+uit_id		int 100		auto increment primary
+uit_naam	text						1. Standaard 2. Stationwagen 3. Sportwagen 4. Cabriolet
+
+users
+
+id		int 11		auto increment primary
+username	varchar 65
+password	varchar 65
+salt		varchar 65
+name		varchar 65
+joined		datetime
+group		int 11
+
+user_session
+
+id		int 11		auto increment primary
+user_id		int 11
+hash		varchar 65
+
+verhuur
+
+id		int 100		auto increment primary
+auto_id		varchar 255
+username	varchar 255
+phone		varchar 255
+date_pickup	date
+date_deliver	date
+date_pickup2	date
+date_deliver2	date
+date_pickup3	date
+date_deliver3	date
+pickup		int 100
+deliver		int 100
